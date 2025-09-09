@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Pomodoro",
-    "slug": "Pomodoro",
+    "slug": "pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.oao1122.pomodoro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "43500e63-48c3-48ff-bce1-5a119bf680e9"
+      }
+    },
+    "owner": "oao1122"
   }
 }
