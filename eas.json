@@ -5,6 +5,9 @@
   },
   "build": {
     "development": {
+      "android": {
+        "simulator": true
+      },
       "developmentClient": true,
       "distribution": "internal"
     },
