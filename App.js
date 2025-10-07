@@ -3,16 +3,17 @@ import {createStaticNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import Home from './Home';
-import Pomodoro from './Pomodoro';
+import PomodoroScreen from './Pomodoro';
 
 const RootStack = createNativeStackNavigator({
     screens: {
         Home: {
             screen: Home,
-            options: {title: "Welcome"},
+            options: {headerShown: false},
         },
         Pomodoro: {
-            screen: Pomodoro,
+            screen: PomodoroScreen,
+            options: {headerShown: false},
         }
     },
 });
