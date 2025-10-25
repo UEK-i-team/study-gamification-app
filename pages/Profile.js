@@ -11,7 +11,7 @@ import { useNavigation } from '@react-navigation/native';
 
 const BACKGROUND_COLOR = '#0F172A';
 
-export default function Home() {
+export default function ProfileScreen() {
     const navigation = useNavigation();
 
     return (
@@ -19,16 +19,15 @@ export default function Home() {
              <StatusBar barStyle="light-content" backgroundColor={BACKGROUND_COLOR} />
 
              <View style={styles.content}>
-                    <Text style={styles.greetingText}>Welcome Back!</Text>
-                    <Text style={styles.subtitle}>Ready to focus?</Text>
+                    <Text style={styles.greetingText}>User Profile</Text>
              </View>
 
              <TouchableOpacity
                   style={styles.startButton}
-                  onPress={() => navigation.navigate('Pomodoro')}
+                  onPress={() => navigation.navigate('Home')}
                   activeOpacity={0.7}
                   >
-                    <Text style={styles.startButtonText}>Start Pomodoro Session</Text>
+                    <Text style={styles.startButtonText}>Go Back To Home</Text>
              </TouchableOpacity>
         </SafeAreaView>
     )
