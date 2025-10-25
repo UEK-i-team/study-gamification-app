@@ -1,6 +1,6 @@
 1. On computer:
    1. git clone https://github.com/UEK-i-team/study-gamification-app.git
-   2. in terminal navigate to root directory (/iteam)
+   2. in terminal navigate to src directory (>> cd src)
    3. >> npm install expo 
    4. >> npx expo start
    5. press s after run
